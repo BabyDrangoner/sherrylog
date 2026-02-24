@@ -1,0 +1,54 @@
+# ===========================
+# CMake 构建目录
+# ===========================
+_build/
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ===========================
+# 部署/发布目录
+# ===========================
+deploy/
+dist/
+
+# ===========================
+# 编译产物
+# ===========================
+*.o
+*.a
+*.so
+*.so.*
+*.out
+*.exe
+
+# ===========================
+# 测例可执行文件（若直接 make 在源码目录）
+# ===========================
+tests/test_log_basic
+tests/test_log_file
+tests/test_log_config
+tests/test_log_thread
+
+# ===========================
+# 临时 / 编辑器文件
+# ===========================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# IDE / 工具目录
+# ===========================
+.vscode/
+.idea/
+*.user
+*.suo
+.clangd/
+compile_commands.json
